@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.tabs button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.tab {
+  display: none;
+  margin-top: 20px;
+}
+
+.tab.active {
+  display: block;
+}
+
+.big-text {
+  font-size: 2em;
+  margin: 15px 0;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  width: 80px;
+}
+
+#celebration {
+  display: none;
+  font-size: 2em;
+  color: gold;
+  animation: pop 1s infinite alternate;
+}
+
+@keyframes pop {
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
+}
